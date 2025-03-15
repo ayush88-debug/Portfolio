@@ -21,7 +21,7 @@ import { motion } from "motion/react"
   },
   {
     image:"https://res.cloudinary.com/dogqhneni/image/upload/v1742055736/ToDo_h2dhdg.png",
-    title:"TickTickDone - TodDo App",
+    title:"TickTickDone - ToDo App",
     description:"A React-powered To-Do App using Redux Toolkit for state management and Tailwind CSS for styling. Users can add, edit, delete, and mark tasks as complete, with local storage persistence. Optimized for responsiveness, ensuring a smooth and efficient task-tracking experience.",
     technologies:["React", "Redux Toolkit", "Tailwind CSS", "Vite"],
     githubLink:"https://github.com/ayush88-debug/TickTickDone",
