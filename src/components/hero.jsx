@@ -13,7 +13,7 @@ const Hero = () => {
             whileInView={{y:0 , opacity:100}}
             transition={{duration:0.8, delay:0.2}}
             >
-                <img src="src\assets\profile.jpg" alt="profile" className="w-[250px] 
+                <img src="https://res.cloudinary.com/dogqhneni/image/upload/v1742055735/profile_p490m7.jpg" alt="profile" className="w-[250px] 
                  cursor-pointer rounded-full shadow-xl shadow-indigo-900 transition-all duration-300 hover:-translate-y-5 hover:scale-105 hover:shadow-2xl 
                 hover:shadow-indigo-600" />
             </motion.div>
