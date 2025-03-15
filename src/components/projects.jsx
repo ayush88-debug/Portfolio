@@ -61,6 +61,7 @@ import { motion } from "motion/react"
   <motion.div
     initial={{x: direction, opacity:0}}
     whileInView={{x:0, opacity:100}}
+    viewport={{once:true}}
     transition={{duration:0.5, delay:0.2}}
 
     className="flex flex-col items-center gap-8 md:flex-row md:gap-24">
@@ -126,6 +127,7 @@ const Projects = () => {
       <motion.h1 
       initial={{y:50, opacity:0}}
       whileInView={{y:0, opacity:100}}
+      viewport={{once:true}}
       transition={{duration:0.5, delay:0.2}}
       className="text-4xl font-light text-white md:text-6xl">My Projects</motion.h1>
 

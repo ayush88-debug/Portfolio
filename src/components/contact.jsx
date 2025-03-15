@@ -5,6 +5,7 @@ const Contact = () => {
     <motion.div
       initial={{y:50, opacity:0}}
       whileInView={{y:0, opacity:100}}
+      viewport={{once:true}}
       transition={{duration:0.5, delay:0.2}}
      id="Contact" className="flex  w-full items-center justify-center">
 
